@@ -79,16 +79,30 @@ console.log(sum());
 //  console.log(sum()); 
 
 
-var avi=["avinashj","kushwhaha","monu","Beast"];
-console.log(avi[3]);
+// var avi=["avinashj","kushwhaha","monu","Beast", "avinashj","kushwhaha","monu","Beast" ,"avinashj","kushwhaha","monu","Beast"];
+// console.log(avi[3]);
  
-console.log(avi.length);
+// console.log(avi.length);
+
+
+// var avi=["avinashj","kushwhaha","monu","Beast", "avinashj","kushwhaha","monu","Beast" ,"avinashj","kushwhaha","monu","Beast"]; 
+
+
+// for (let element in avi){
+//     console.log(element);
+// }
+
+// for (let element of avi){
+//     console.log(element);
+// }
 
 
 
+var avi=["avinashj","kushwhaha","monu","Beast", "avinashj","kushwhaha","monu","Beast" ,"avinashj","kushwhaha","monu","Beast"]; 
 
 
+avi.forEach(function(element,index,array){
 
-
-
+console.log(element + ": " + index +" :" + array);
+});
 
